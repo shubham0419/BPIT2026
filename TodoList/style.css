@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 50px auto;
+  padding: 10px 50px;
+}
+
+#todo-form{
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+
+#todo-form>input{
+  padding: 5px;
+  width: 100%;
+}
+
+#todo-form>button{
+  padding: 5px 10px;
+}
+
+#todo-container{
+  width: 100%;
+}
+
+.todo{
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

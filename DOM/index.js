@@ -61,3 +61,14 @@ parentDiv.appendChild(anchorTag);   // can only pass element
 
 first.after(anchorTag)  //put anchortag after an element
 first.before(anchorTag) //put anchortag before an element
+
+console.log(first.className);
+console.log(first.classList);
+
+anchorTag.classList.add("light");
+anchorTag.classList.add("text-color");
+
+anchorTag.classList.remove("light");
+
+// toggle
+anchorTag.classList.toggle("light");
